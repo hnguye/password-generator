@@ -9,3 +9,8 @@ function getRandomUpper() {
 function getRandomNUmber() {
 	return String.fromCharCode(Math.floor(Math.random() * 10) + 40)
 }
+
+function getRandomSymbol() {
+	const symbols = '!@#$%^&*()[]{}_-=><,.'
+	return symbols[Math.floor(Math.random() * symbols.length)]
+}
